@@ -1,0 +1,88 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+div{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+}
+.header{
+    background-color: blue;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.nav {
+    background-color: black;
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover {
+    color: rgb(red, green, blue);
+}
+.main {
+    display: flex;
+    background-color: salmon;
+}
+.content {
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    padding: 10px;
+}
+
+.content .artikel {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+    border: 2px solid lightblue;
+    padding: 10px;
+    line-height: 1.6em;
+}
+.content .artikel .read {
+    color: rgb(224, 199, 199);
+    border: 1px solid blueviolet;
+    width: 150px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.content .artikel .read{
+    color: rgb(204, 177, 177);
+}
+
+
+.sidebar{
+    justify-content: left;
+    border: 1px solid lightgrey;
+   background-color: blueviolet;
+    width: 60%;
+    margin: 0;
+    padding: 10px;
+}
+.sidebar h4 {
+    text-align: left;
+}
+.sidebar ul li{
+    list-style: none;
+    line-height: 3em;
+}
+
+.footer{
+    background-color: rgb(173, 173, 189);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
